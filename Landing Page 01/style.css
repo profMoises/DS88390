@@ -1,4 +1,9 @@
+/*Importação da font*/
+
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+
+/*   Zera as configurações da página   */
 
 *{
     margin: 0;
@@ -7,9 +12,22 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+/*-------------------------------------------*/
+
+
+
+/*Aplicação do efeito  de navegação com scroll*/
+
+
 html{
     scroll-behavior: smooth;
 }
+
+
+/*-----------------------------------------*/
+
+/*Organização dos elementos do cabeçalho*/
 
 .container{
     max-width: 1080px;
@@ -18,11 +36,19 @@ html{
     align-items: center;
 }
 
+/*-----------------------------------------*/
+
+/*Organização dos elementos das seções*/
 .container1{ 
     max-width: 1080px;
     margin: 0 auto;
 }
 
+
+/*---------------------------------------*/
+
+
+/*Formatação do cabeçalho*/
 header{
     background-color: black;
     width: 100%;
@@ -32,19 +58,26 @@ header{
     z-index: 9999;
 }
 
+/*------------------*/
+
 .menu{
     width: 50%;
 }
 
 .menu nav a{
+    /*Cor*/
     color: #c4c4c4;
+    /*decoração do texto*/
     text-decoration:none;
     font-size: 18px;
     padding-right: 30px;
     padding-bottom: 8px;
+    /*Torna a posição do objeto filho relativa ao do objeto pai */
     position: relative;
 }
 
+
+/**/
 .menu nav a::after{
     content: " ";
     width: 0px;
