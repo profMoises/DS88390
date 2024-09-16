@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Faz com que o padding e border sejam incluídos no tamanho total dos elementos */
+
 }
 
 /* Estilos básicos para o corpo da página */
@@ -18,11 +19,13 @@ header {
     color: white; /* Cor do texto branca */
     padding: 20px; /* Espaçamento interno de 20px */
     text-align: center; /* Centraliza o conteúdo */
+   
 }
 
 /* Estilos para a barra de navegação */
 header nav {
     margin-top: 10px; /* Espaço entre o logo e os links */
+    
 }
 
 /* Links de navegação */
@@ -30,6 +33,7 @@ header nav a {
     color: white; /* Cor dos links branca */
     margin: 0 10px; /* Espaçamento lateral de 10px entre os links */
     text-decoration: none; /* Remove o sublinhado dos links */
+   
 }
 
 /* Seção de destaque principal (hero) */
