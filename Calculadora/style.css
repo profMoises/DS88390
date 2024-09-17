@@ -1,0 +1,74 @@
+/* Estilos para a calculadora */
+
+/* Estilos gerais para alinhar a calculadora ao centro da página */
+body {
+    display: flex; /* Utiliza Flexbox para facilitar o alinhamento */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    height: 100vh; /* Define a altura da página como 100% da altura da janela */
+    background-color: #f4f4f4; /* Cor de fundo clara para a página */
+    margin: 0; /* Remove a margem padrão do corpo da página */
+    font-family: Arial, sans-serif; /* Define a fonte como Arial ou a fonte padrão sans-serif */
+  }
+  
+  /* Estilos do contêiner da calculadora */
+  .calculator {
+    background-color: #333; /* Cor de fundo escura para a calculadora */
+    padding: 20px; /* Espaçamento interno em torno do conteúdo da calculadora */
+    border-radius: 10px; /* Arredonda os cantos da calculadora */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor da calculadora */
+  }
+  
+  /* Estilo da tela da calculadora (onde os números aparecem) */
+  .display {
+    width: 100%; /* Faz a largura da tela ocupar 100% do contêiner */
+    height: 60px; /* Define uma altura fixa para a tela da calculadora */
+    background-color: #222; /* Cor de fundo escura para o display */
+    color: #fff; /* Cor do texto branca para o display */
+    border: none; /* Remove qualquer borda ao redor do display */
+    text-align: right; /* Alinha o texto à direita dentro do display */
+    font-size: 2em; /* Aumenta o tamanho da fonte para 2x o tamanho padrão */
+    padding: 10px; /* Espaçamento interno dentro do display */
+    margin-bottom: 10px; /* Adiciona um espaço abaixo do display para separar dos botões */
+    border-radius: 5px; /* Arredonda os cantos do display */
+  }
+  
+  /* Estilos dos botões da calculadora */
+  .buttons {
+    display: grid; /* Utiliza grid layout para organizar os botões */
+    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas com larguras iguais */
+    gap: 10px; /* Define um espaço de 10px entre os botões */
+  }
+  
+  /* Estilo comum para todos os botões */
+  button {
+    height: 60px; /* Define uma altura fixa para os botões */
+    background-color: #555; /* Cor de fundo cinza para os botões */
+    color: white; /* Cor do texto branca nos botões */
+    border: none; /* Remove bordas ao redor dos botões */
+    font-size: 1.5em; /* Define o tamanho da fonte nos botões como 1.5x o padrão */
+    border-radius: 5px; /* Arredonda os cantos dos botões */
+    cursor: pointer; /* Mostra o cursor de "mãozinha" ao passar sobre os botões */
+    transition: background-color 0.3s; /* Cria uma transição suave ao alterar a cor de fundo */
+  }
+  
+  /* Efeito ao passar o mouse sobre os botões */
+  button:hover {
+    background-color: #777; /* Altera a cor de fundo dos botões quando o mouse está sobre eles */
+  }
+  
+  /* Estilo para o botão '0' para que ocupe duas colunas */
+  button.zero {
+    grid-column: span 2; /* Faz com que o botão '0' ocupe o espaço de duas colunas */
+  }
+  
+  /* Estilo para o botão de resultado '=' */
+  button:nth-child(16) {
+    background-color: #1a73e8; /* Cor de fundo azul para o botão '=' */
+  }
+  
+  /* Efeito ao passar o mouse sobre o botão '=' */
+  button:nth-child(16):hover {
+    background-color: #0c5abf; /* Altera a cor de fundo do botão '=' ao passar o mouse sobre ele */
+  }
+  
