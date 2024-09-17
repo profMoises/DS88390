@@ -1,0 +1,89 @@
+/* Define o estilo básico para o corpo da página */
+body {
+    /* Define a família de fontes como Arial ou, se não disponível, sans-serif */
+    font-family: Arial, sans-serif;
+    
+    /* Define a cor de fundo do corpo da página */
+    background-color: #f0f0f0;
+    
+    /* Adiciona um preenchimento em torno do conteúdo do corpo */
+    padding: 20px;
+}
+
+/* Estilos para o container principal da página */
+.container {
+    /* Define uma largura máxima para o container */
+    max-width: 800px;
+    
+    /* Centraliza o container horizontalmente */
+    margin: 0 auto;
+    
+    /* Define a cor de fundo do container */
+    background-color: #fff;
+    
+    /* Adiciona preenchimento interno ao container */
+    padding: 20px;
+    
+    /* Arredonda os cantos do container */
+    border-radius: 8px;
+    
+    /* Adiciona uma sombra leve ao redor do container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos para os títulos (h1 e h2) */
+h1, h2 {
+    /* Define a cor do texto dos títulos */
+    color: #333;
+}
+
+/* Estilos para os inputs e o botão dentro dos formulários */
+form input, form button {
+    /* Adiciona margem entre os elementos do formulário */
+    margin: 5px;
+    
+    /* Define o preenchimento interno dos inputs e botões para torná-los maiores */
+    padding: 8px;
+    
+    /* Define o tamanho da fonte dentro dos inputs e botões */
+    font-size: 16px;
+}
+
+/* Estilos específicos para o botão no formulário */
+form button {
+    /* Define a cor de fundo do botão */
+    background-color: #4CAF50;
+    
+    /* Define a cor do texto do botão */
+    color: white;
+    
+    /* Remove as bordas padrão do botão */
+    border: none;
+    
+    /* Define o cursor do mouse como uma mãozinha (indicando que é clicável) */
+    cursor: pointer;
+}
+
+/* Estilos para a lista de itens (ul) */
+ul {
+    /* Remove os marcadores de lista padrão */
+    list-style-type: none;
+    
+    /* Remove o preenchimento padrão da lista */
+    padding: 0;
+}
+
+/* Estilos para os itens individuais da lista (li) */
+li {
+    /* Adiciona preenchimento interno aos itens da lista */
+    padding: 10px;
+    
+    /* Adiciona uma borda inferior aos itens da lista para separá-los */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Remove a borda inferior do último item da lista */
+li:last-child {
+    /* Remove a borda inferior do último item */
+    border-bottom: none;
+}
