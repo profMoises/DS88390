@@ -1,0 +1,74 @@
+/* Estilos gerais para o formulário */
+
+/* Estilos para centralizar o formulário na página */
+body {
+    display: flex; /* Utiliza Flexbox para facilitar o alinhamento */
+    justify-content: center; /* Centraliza horizontalmente o formulário */
+    align-items: center; /* Centraliza verticalmente o formulário */
+    height: 100vh; /* Define a altura da página como 100% da altura da janela */
+    background-color: #f7f7f7; /* Cor de fundo clara */
+    margin: 0; /* Remove margens padrão do corpo */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+  }
+  
+  /* Estilos do contêiner do formulário */
+  .form-container {
+    background-color: #fff; /* Fundo branco para o formulário */
+    padding: 20px; /* Espaçamento interno ao redor dos elementos */
+    border-radius: 10px; /* Arredonda os cantos do formulário */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao redor do formulário */
+    width: 300px; /* Define a largura fixa do formulário */
+  }
+  
+  /* Estilo para o título do formulário */
+  h2 {
+    text-align: center; /* Centraliza o texto do título */
+    margin-bottom: 20px; /* Adiciona um espaçamento inferior */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte do título */
+    color: #333; /* Define a cor do texto */
+  }
+  
+  /* Estilos para os rótulos (label) */
+  label {
+    display: block; /* Exibe o rótulo em bloco para que ocupe toda a largura */
+    margin-bottom: 5px; /* Espaçamento inferior entre o rótulo e o campo de input */
+    font-size: 0.9em; /* Define um tamanho de fonte um pouco menor para os rótulos */
+    color: #333; /* Cor escura para os rótulos */
+  }
+  
+  /* Estilos para os campos de input */
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%; /* Faz o input ocupar 100% da largura do contêiner */
+    padding: 10px; /* Espaçamento interno nos campos de input */
+    margin-bottom: 15px; /* Espaçamento inferior entre os campos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Arredonda os cantos dos campos de input */
+    font-size: 1em; /* Define o tamanho da fonte dentro dos inputs */
+    box-sizing: border-box; /* Garante que o padding não aumente a largura do input */
+  }
+  
+  /* Estilo para o botão de envio */
+  button {
+    width: 100%; /* Faz o botão ocupar 100% da largura do contêiner */
+    padding: 10px; /* Espaçamento interno dentro do botão */
+    background-color: #1a73e8; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    border: none; /* Remove bordas do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    font-size: 1em; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Mostra o cursor de "mão" ao passar sobre o botão */
+  }
+  
+  /* Efeito ao passar o mouse sobre o botão */
+  button:hover {
+    background-color: #0c5abf; /* Altera a cor de fundo ao passar o mouse */
+  }
+  
+  /* Estilo para a mensagem de erro */
+  #error-message {
+    color: red; /* Cor vermelha para a mensagem de erro */
+    font-size: 0.9em; /* Define o tamanho da fonte para a mensagem de erro */
+    margin-top: 10px; /* Adiciona espaçamento acima da mensagem */
+    text-align: center; /* Centraliza o texto da mensagem de erro */
+  }
+  
