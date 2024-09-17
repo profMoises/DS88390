@@ -114,6 +114,7 @@ footer {
     position: fixed; /* Fixa o rodapé no final da página */
     bottom: 0; /* Alinha o rodapé ao final da página */
     width: 100%; /* O rodapé ocupa 100% da largura da tela */
+    height: 10%;
 }
 
 
@@ -193,30 +194,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
-}
-
-/* Estilo para o menu */
-.menu {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.menu li {
-    list-style: none;
-    margin: 0 15px;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.menu a:hover {
-    text-decoration: underline;
+    height: 10%;
 }
 
 
@@ -225,45 +203,7 @@ footer {
 
 
 
-
-
-
-/* Ajustes responsivos */
-@media (max-width: 768px) {
-    .mission-values {
-        flex-direction: column;
-    }
-
-    h1, h2 {
-        font-size: 28px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*CONTATO.HTML*/
 
 /* Estilo para a seção de contato */
 .contact {
