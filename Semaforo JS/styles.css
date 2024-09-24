@@ -1,0 +1,42 @@
+/* Estilização básica para centralizar o semáforo na página */
+body {
+    display: flex; /* Usado para flexbox layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    background-color: #f0f0f0; /* Fundo suave */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo geral para o semáforo */
+.semaforo {
+    background-color: black; /* Cor de fundo preta para o semáforo */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    display: flex; /* Usado para organizar as luzes em coluna */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    gap: 10px; /* Espaço entre as luzes */
+}
+
+/* Estilo geral para as luzes */
+.luz {
+    width: 100px; /* Largura das luzes */
+    height: 100px; /* Altura das luzes */
+    background-color: #333; /* Cor inicial das luzes (apagadas) */
+    border-radius: 50%; /* Formato redondo */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra ao redor */
+    transition: background-color 0.5s; /* Transição suave para as cores */
+}
+
+/* Estilo inicial para cada cor de luz quando estiver acesa */
+#vermelho.active {
+    background-color: red; /* Cor vermelha ativa */
+}
+
+#amarelo.active {
+    background-color: yellow; /* Cor amarela ativa */
+}
+
+#verde.active {
+    background-color: green; /* Cor verde ativa */
+}
