@@ -5,7 +5,7 @@ function validateForm() {
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
     let confirmPassword = document.getElementById('confirmPassword').value;
-    
+   
     // Obtém o elemento para exibir mensagens de erro
     let errorMessage = document.getElementById('error-message');
     
