@@ -1,0 +1,61 @@
+/* Estilo para o corpo da página */
+body {
+    display: flex;             /* Flexbox para centralizar o conteúdo */
+    flex-direction: column;    /* Organiza os elementos em coluna */
+    justify-content: center;   /* Centraliza verticalmente */
+    align-items: center;       /* Centraliza horizontalmente */
+    height: 100vh;            /* Altura da viewport */
+    background-color: #003366; /* Fundo azul escuro */
+    color: white;              /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte simples */
+}
+
+/* Estilo para o título */
+h2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: white;        /* Fundo branco no formulário */
+    padding: 20px;                  /* Espaçamento interno no formulário */
+    border-radius: 8px;             /* Bordas arredondadas */
+    max-width: 300px;               /* Largura máxima do formulário */
+    margin: auto;                   /* Centraliza o formulário na página */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve ao redor do formulário */
+}
+
+/* Estilo para os rótulos dos campos */
+label {
+    font-weight: bold;              /* Negrito nos rótulos */
+    display: block;                 /* Cada rótulo ocupa uma linha inteira */
+    margin-bottom: 5px;             /* Espaçamento abaixo dos rótulos */
+    color: black;
+}
+
+/* Estilo para os campos de entrada */
+input[type="email"], input[type="password"] {
+    width: 100%;                    /* Campos ocupam toda a largura do formulário */
+    padding: 8px;                   /* Espaçamento interno nos campos */
+    margin-bottom: 10px;            /* Espaçamento abaixo dos campos */
+    border: 1px solid #ccc;         /* Borda leve ao redor dos campos */
+    border-radius: 4px;             /* Bordas levemente arredondadas */
+}
+
+/* Estilo para o botão de login */
+button {
+    background-color: #003366;      /* Fundo azul escuro */
+    color: white;                   /* Texto branco */
+    padding: 10px 20px;             /* Espaçamento interno no botão */
+    border: none;                   /* Remove a borda padrão */
+    border-radius: 4px;             /* Bordas levemente arredondadas */
+    cursor: pointer;                /* Muda o cursor ao passar sobre o botão */
+    width: 100%;                    /* Botão ocupa toda a largura do formulário */
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: white;        /* Fundo branco ao passar o mouse */
+    color: #003366;                 /* Texto azul escuro ao passar o mouse */
+    border: 1px solid #003366;      /* Adiciona uma borda ao botão ao passar o mouse */
+}
