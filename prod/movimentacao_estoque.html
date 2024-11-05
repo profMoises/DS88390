@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movimentação de Estoque</title>
+</head>
+<body>
+    <form method="post" action="movimentacao_estoque.php">
+        <label>Produto:</label>
+        <select name="id_produto">
+            <!-- Adicione código PHP para listar produtos aqui -->
+        </select>
+        <label>Tipo:</label>
+        <select name="tipo">
+            <option value="entrada">Entrada</option>
+            <option value="saida">Saída</option>
+        </select>
+        <label>Quantidade:</label><input type="number" name="quantidade" required>
+        <label>Data:</label><input type="date" name="data" required>
+        <button type="submit">Registrar Movimentação</button>
+    </form>
+</body>
+</html>
