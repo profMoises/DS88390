@@ -8,11 +8,8 @@ function mudarLuz() {
     const amarelo = document.getElementById('amarelo');
     const verde = document.getElementById('verde');
 
-    // Remove a classe 'active' de todas as luzes (desliga todas)
-    vermelho.classList.remove('active');
-    amarelo.classList.remove('active');
-    verde.classList.remove('active');
 
+   
     // Verifica qual luz deve estar acesa
     if (luzAtual === 0) {
         vermelho.classList.add('active'); // Acende a luz vermelha
